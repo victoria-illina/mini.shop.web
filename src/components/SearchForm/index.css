@@ -1,0 +1,12 @@
+.search-form{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.search-form__input{
+    font-family: Avenir;
+    font-size: 26px;
+    font-weight: 900;
+    color: #22232b;
+}
