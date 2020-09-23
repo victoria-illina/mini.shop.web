@@ -1,0 +1,52 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    position: fixed;
+    z-index: 10;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.header__container{
+    display: flex;
+    align-items: center;
+}
+
+.header__menu {
+    display: flex;
+    justify-content: space-between;
+}
+
+.header__nav {
+    list-style-type: none;
+}
+
+.header__nav-link {
+    text-decoration: none;
+    cursor: pointer;
+    color: #22232b;
+    text-transform: uppercase;
+    font-family: 'Lato', sans-serif;
+    font-size: 13px;
+    font-weight: 900;
+}
+
+.header__nav-link:hover {
+    opacity: 0.5;
+}
+
+.header__burger-menu{
+    width: 71px;
+    height: 71px;
+    background-color: #1b1b1b;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.header__container-text{
+    font-family: Avenir;
+    font-size: 13px;
+    font-weight: 900;
+    color: #22232b;
+}
